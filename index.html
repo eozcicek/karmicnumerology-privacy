@@ -1,122 +1,270 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy - Karmic Numerology</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      max-width: 800px;
-      color: #333;
-      background-color: #fff;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #2a2a2a;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-top: 30px;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <title>Privacy Policy / Gizlilik Politikası / Политика конфиденциальности</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+        .lang-buttons {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-buttons button {
+            margin-left: 5px;
+            padding: 6px 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .lang-section {
+            display: none;
+        }
+        .lang-section.active {
+            display: block;
+        }
+        h1, h2 {
+            color: #8B0000;
+        }
+        a {
+            color: #8B0000;
+        }
+        ul {
+            margin-top: 0;
+        }
+    </style>
+    <script>
+        function showLang(lang) {
+            document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+            document.getElementById(lang).classList.add('active');
+        }
+    </script>
 </head>
 <body>
 
-  <h1>Privacy Policy</h1>
-  <p><strong>Effective Date:</strong> August 1, 2025</p>
+    <div class="lang-buttons">
+        <button onclick="showLang('tr')">🇹🇷 Türkçe</button>
+        <button onclick="showLang('en')">🇬🇧 English</button>
+        <button onclick="showLang('ru')">🇷🇺 Русский</button>
+    </div>
 
-  <p>This Privacy Policy applies to the <strong>Karmic Numerology</strong> mobile application (hereafter referred to as the “Application”), developed and published by <strong>Emre Ozcicek</strong> (hereafter referred to as the “Service Provider”). This Application is provided as a commercial service and is intended for use <strong>as-is</strong>.</p>
+    <!-- Türkçe -->
+    <div id="tr" class="lang-section active">
+        <h1>Gizlilik Politikası</h1>
+        <p><strong>Yürürlük Tarihi:</strong> 1 Ağustos 2025</p>
 
-  <div class="section">
-    <h2>1. Information Collection and Use</h2>
-    <p>The Application may automatically collect certain information when you download and use it. This may include, but is not limited to:</p>
-    <ul>
-      <li>Your device’s Internet Protocol (IP) address</li>
-      <li>Operating system and version</li>
-      <li>Date and time of activity within the Application</li>
-      <li>Pages visited and time spent on each page</li>
-      <li>Overall usage duration</li>
-    </ul>
-    <p><strong>Note:</strong> The Application does not collect precise geolocation data.</p>
-    <p>For an enhanced user experience, you may also be asked to voluntarily provide the following personal information:</p>
-    <ul>
-      <li>Name</li>
-      <li>Email address</li>
-      <li>Date of birth</li>
-    </ul>
-    <p>This data is collected only if you choose to provide it, and will be used strictly as described in this policy.</p>
-  </div>
+        <p>Bu Gizlilik Politikası, <strong>Karmic Numerology</strong> mobil uygulaması (bundan sonra “Uygulama”) için geçerlidir. Uygulama, <strong>Emre Ozcicek</strong> tarafından geliştirilmiş ve yayınlanmıştır (bundan sonra “Hizmet Sağlayıcı”). Uygulama ticari amaçla sunulmakta olup, "olduğu gibi" kullanılmak üzere tasarlanmıştır.</p>
 
-  <div class="section">
-    <h2>2. Use of Collected Information</h2>
-    <p>Collected information may be used to:</p>
-    <ul>
-      <li>Deliver the core features and functionality of the Application</li>
-      <li>Improve the Application’s performance and user experience</li>
-      <li>Manage subscriptions, user accounts, or preferences</li>
-      <li>Send important service-related notices or promotional updates</li>
-    </ul>
-  </div>
+        <h2>1. Bilgi Toplama ve Kullanımı</h2>
+        <p>Uygulama, indirme ve kullanım sırasında otomatik olarak bazı bilgiler toplayabilir. Bunlar şunları içerebilir, ancak bunlarla sınırlı değildir:</p>
+        <ul>
+            <li>Cihazınızın İnternet Protokolü (IP) adresi</li>
+            <li>İşletim sistemi ve sürümü</li>
+            <li>Uygulamadaki etkinlik tarih ve saati</li>
+            <li>Ziyaret edilen sayfalar ve her sayfada geçirilen süre</li>
+            <li>Genel kullanım süresi</li>
+        </ul>
+        <p><strong>Not:</strong> Uygulama cihazınızın kesin konum bilgilerini toplamaz.</p>
+        <p>Kullanıcı deneyimini geliştirmek için isteğe bağlı olarak aşağıdaki kişisel bilgileri sağlamanız istenebilir:</p>
+        <ul>
+            <li>Adınız</li>
+            <li>E-posta adresiniz</li>
+            <li>Doğum tarihiniz</li>
+        </ul>
+        <p>Bu bilgiler yalnızca sağlarsanız toplanır ve bu politika doğrultusunda kullanılır.</p>
 
-  <div class="section">
-    <h2>3. Third-Party Access and Data Sharing</h2>
-    <p>Only aggregated and anonymized usage data may be periodically shared with trusted third-party services to help improve the Application. These third parties do not have independent rights to use your personal information.</p>
-    <p>We may disclose user-provided or automatically collected information in the following situations:</p>
-    <ul>
-      <li>To comply with applicable laws or legal processes (e.g., subpoenas)</li>
-      <li>To protect our legal rights or to respond to lawful requests by public authorities</li>
-      <li>In good faith, if disclosure is necessary to protect your safety or that of others</li>
-      <li>With service providers operating on our behalf under strict confidentiality agreements</li>
-    </ul>
-  </div>
+        <h2>2. Toplanan Bilgilerin Kullanımı</h2>
+        <p>Toplanan bilgiler aşağıdaki amaçlarla kullanılabilir:</p>
+        <ul>
+            <li>Uygulamanın temel özelliklerini sağlamak</li>
+            <li>Performans ve kullanıcı deneyimini iyileştirmek</li>
+            <li>Abonelikler, kullanıcı hesapları veya tercihlerin yönetimi</li>
+            <li>Önemli bildirimler veya promosyon mesajları göndermek</li>
+        </ul>
 
-  <div class="section">
-    <h2>4. Opt-Out Rights</h2>
-    <p>You may opt out of all data collection by uninstalling the Application. You can do this via your device’s standard uninstall process or through the app store from which the Application was downloaded.</p>
-  </div>
+        <h2>3. Üçüncü Taraf Erişimi ve Veri Paylaşımı</h2>
+        <p>Sadece anonimleştirilmiş ve toplulaştırılmış kullanım verileri periyodik olarak uygulamanın geliştirilmesi için güvenilir üçüncü taraflarla paylaşılabilir. Bu tarafların kişisel verilerinizi bağımsız olarak kullanma hakları yoktur.</p>
+        <p>Kullanıcı tarafından sağlanan veya otomatik toplanan bilgiler aşağıdaki durumlarda açıklanabilir:</p>
+        <ul>
+            <li>Yasal yükümlülükler veya mahkeme celbi gibi hukuki taleplere uyum için</li>
+            <li>Hizmet Sağlayıcının yasal haklarını korumak veya kamu otoritelerinin yasal taleplerine yanıt vermek için</li>
+            <li>İyi niyetle, sizin veya başkalarının güvenliğini korumak amacıyla gerektiğinde</li>
+            <li>Sıkı gizlilik sözleşmeleri ile çalışan hizmet sağlayıcılarla</li>
+        </ul>
 
-  <div class="section">
-    <h2>5. Data Retention</h2>
-    <p>We retain user-provided data for as long as you actively use the Application, and for a reasonable period thereafter.</p>
-    <p>If you wish to delete your account and all associated data, please visit:<br>
-    🔗 <a href="https://eozcicek.github.io/account-deletion-page/" target="_blank">https://eozcicek.github.io/account-deletion-page/</a></p>
-  </div>
+        <h2>4. Veri Toplamayı Durdurma Hakları</h2>
+        <p>Uygulamadan toplama işlemlerini durdurmak için uygulamayı cihazınızdan kaldırabilirsiniz. Bu işlemi cihazınızdaki standart kaldırma yöntemi veya uygulamanın indirildiği mağaza üzerinden gerçekleştirebilirsiniz.</p>
 
-  <div class="section">
-    <h2>6. Children’s Privacy</h2>
-    <p>This Application is not intended for children under the age of 13, and we do not knowingly collect personal information from users in that age group.</p>
-    <p>If you are a parent or legal guardian and believe that your child has submitted personal data through the Application, please contact us immediately. We will promptly delete such information upon verification.</p>
-    <p><strong>Note:</strong> In accordance with regional laws (e.g., GDPR), you must be at least 16 years old to consent to the processing of your personal data. If not, a parent or legal guardian must provide consent on your behalf.</p>
-  </div>
+        <h2>5. Veri Saklama Süresi</h2>
+        <p>Kullanıcı tarafından sağlanan veriler, uygulamayı aktif olarak kullandığınız sürece ve makul bir süre sonrasında saklanır.</p>
+        <p>Hesabınızı ve ilgili tüm verileri silmek isterseniz, lütfen aşağıdaki bağlantıyı kullanın:<br>
+        🔗 <a href="https://eozcicek.github.io/account-deletion-page/" target="_blank">https://eozcicek.github.io/account-deletion-page/</a></p>
 
-  <div class="section">
-    <h2>7. Data Security</h2>
-    <p>We take the privacy and security of your data seriously. The Service Provider implements appropriate technical, administrative, and physical safeguards to protect your information from unauthorized access, alteration, disclosure, or destruction.</p>
-  </div>
+        <h2>6. Çocukların Gizliliği</h2>
+        <p>Bu uygulama, 13 yaş altındaki çocuklar için tasarlanmamıştır ve bu yaş grubundan bilerek kişisel bilgi toplanmaz.</p>
+        <p>Eğer çocuğunuzun kişisel bilgilerini uygulama aracılığıyla paylaştığını düşünüyorsanız, lütfen bizimle iletişime geçin. Doğrulama sonrası bu bilgiler derhal silinecektir.</p>
+        <p><strong>Not:</strong> Bölgesel yasalara göre (örneğin GDPR), kişisel verilerinizin işlenmesine onay vermek için en az 16 yaşında olmanız gerekmektedir. Aksi halde, bir veli veya yasal vasi sizin adınıza onay vermelidir.</p>
 
-  <div class="section">
-    <h2>8. Changes to This Privacy Policy</h2>
-    <p>This Privacy Policy may be updated periodically. Changes will be posted on this page with a revised effective date. You are encouraged to review this page regularly. Continued use of the Application after any changes constitutes your acceptance of the updated policy.</p>
-  </div>
+        <h2>7. Veri Güvenliği</h2>
+        <p>Veri gizliliğiniz bizim için önemlidir. Hizmet Sağlayıcı, verilerinizi yetkisiz erişim, değiştirme, ifşa veya imhadan korumak için teknik, idari ve fiziksel önlemler uygular.</p>
 
-  <div class="section">
-    <h2>9. Your Consent</h2>
-    <p>By using the Application, you consent to the collection, processing, and use of your information as outlined in this Privacy Policy.</p>
-  </div>
+        <h2>8. Gizlilik Politikasındaki Değişiklikler</h2>
+        <p>Bu Gizlilik Politikası zaman zaman güncellenebilir. Yapılan değişiklikler bu sayfada ve güncellenmiş yürürlük tarihleriyle yayımlanacaktır. Politika düzenli olarak gözden geçirilmelidir. Uygulamayı kullanmaya devam etmeniz, güncellenen politikayı kabul ettiğiniz anlamına gelir.</p>
 
-  <div class="section">
-    <h2>10. Contact Us</h2>
-    <p>If you have any questions or concerns regarding this Privacy Policy or how your data is handled, please contact us at:<br>
-    📧 <a href="mailto:numeroloji.karmik@gmail.com">numeroloji.karmik@gmail.com</a></p>
-  </div>
+        <h2>9. Onayınız</h2>
+        <p>Uygulamayı kullanarak, bu Gizlilik Politikası'nda belirtilen şekilde verilerinizin toplanmasına, işlenmesine ve kullanılmasına onay vermiş olursunuz.</p>
+
+        <h2>10. İletişim</h2>
+        <p>Bu Gizlilik Politikası veya verilerinizin işlenişi ile ilgili sorularınız varsa, lütfen bizimle iletişime geçin:<br>
+        📧 <a href="mailto:numeroloji.karmik@gmail.com">numeroloji.karmik@gmail.com</a></p>
+    </div>
+
+    <!-- English -->
+    <div id="en" class="lang-section">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> August 1, 2025</p>
+
+        <p>This Privacy Policy applies to the <strong>Karmic Numerology</strong> mobile application (hereafter referred to as the “Application”), developed and published by <strong>Emre Ozcicek</strong> (hereafter referred to as the “Service Provider”). This Application is provided as a commercial service and is intended for use as-is.</p>
+
+        <h2>1. Information Collection and Use</h2>
+        <p>The Application may automatically collect certain information when you download and use it. This may include, but is not limited to:</p>
+        <ul>
+            <li>Your device’s Internet Protocol (IP) address</li>
+            <li>Operating system and version</li>
+            <li>Date and time of activity within the Application</li>
+            <li>Pages visited and time spent on each page</li>
+            <li>Overall usage duration</li>
+        </ul>
+        <p><strong>Note:</strong> The Application does not collect precise geolocation data.</p>
+        <p>For an enhanced user experience, you may also be asked to voluntarily provide the following personal information:</p>
+        <ul>
+            <li>Name</li>
+            <li>Email address</li>
+            <li>Date of birth</li>
+        </ul>
+        <p>This data is collected only if you choose to provide it, and will be used strictly as described in this policy.</p>
+
+        <h2>2. Use of Collected Information</h2>
+        <p>Collected information may be used to:</p>
+        <ul>
+            <li>Deliver the core features and functionality of the Application</li>
+            <li>Improve the Application’s performance and user experience</li>
+            <li>Manage subscriptions, user accounts, or preferences</li>
+            <li>Send important service-related notices or promotional updates</li>
+        </ul>
+
+        <h2>3. Third-Party Access and Data Sharing</h2>
+        <p>Only aggregated and anonymized usage data may be periodically shared with trusted third-party services to help improve the Application. These third parties do not have independent rights to use your personal information.</p>
+        <p>We may disclose user-provided or automatically collected information in the following situations:</p>
+        <ul>
+            <li>To comply with applicable laws or legal processes (e.g., subpoenas)</li>
+            <li>To protect our legal rights or to respond to lawful requests by public authorities</li>
+            <li>In good faith, if disclosure is necessary to protect your safety or that of others</li>
+            <li>With service providers operating on our behalf under strict confidentiality agreements</li>
+        </ul>
+
+        <h2>4. Opt-Out Rights</h2>
+        <p>You may opt out of all data collection by uninstalling the Application. You can do this via your device’s standard uninstall process or through the app store from which the Application was downloaded.</p>
+
+        <h2>5. Data Retention</h2>
+        <p>We retain user-provided data for as long as you actively use the Application, and for a reasonable period thereafter.</p>
+        <p>If you wish to delete your account and all associated data, please visit:<br>
+        🔗 <a href="https://eozcicek.github.io/account-deletion-page/" target="_blank">https://eozcicek.github.io/account-deletion-page/</a></p>
+
+        <h2>6. Children’s Privacy</h2>
+        <p>This Application is not intended for children under the age of 13, and we do not knowingly collect personal information from users in that age group.</p>
+        <p>If you are a parent or legal guardian and believe that your child has submitted personal data through the Application, please contact us immediately. We will promptly delete such information upon verification.</p>
+        <p><strong>Note:</strong> In accordance with regional laws (e.g., GDPR), you must be at least 16 years old to consent to the processing of your personal data. If not, a parent or legal guardian must provide consent on your behalf.</p>
+
+        <h2>7. Data Security</h2>
+        <p>We take the privacy and security of your data seriously. The Service Provider implements appropriate technical, administrative, and physical safeguards to protect your information from unauthorized access, alteration, disclosure, or destruction.</p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>This Privacy Policy may be updated periodically. Changes will be posted on this page with a revised effective date. You are encouraged to review this page regularly. Continued use of the Application after any changes constitutes your acceptance of the updated policy.</p>
+
+        <h2>9. Your Consent</h2>
+        <p>By using the Application, you consent to the collection, processing, and use of your information as outlined in this Privacy Policy.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have any questions or concerns regarding this Privacy Policy or how your data is handled, please contact us at:<br>
+        📧 <a href="mailto:numeroloji.karmik@gmail.com">numeroloji.karmik@gmail.com</a></p>
+    </div>
+
+    <!-- Русский -->
+    <div id="ru" class="lang-section">
+        <h1>Политика конфиденциальности</h1>
+        <p><strong>Дата вступления в силу:</strong> 1 августа 2025 г.</p>
+
+        <p>Данная Политика конфиденциальности применяется к мобильному приложению <strong>Karmic Numerology</strong> (далее «Приложение»), разработанному и опубликованному <strong>Эмре Озджичек</strong> (далее «Поставщик услуг»). Приложение предоставляется в коммерческих целях и предназначено для использования «как есть».</p>
+
+        <h2>1. Сбор и использование информации</h2>
+        <p>Приложение может автоматически собирать определённую информацию при загрузке и использовании. Это может включать, но не ограничивается:</p>
+        <ul>
+            <li>IP-адрес вашего устройства</li>
+            <li>Операционная система и её версия</li>
+            <li>Дата и время активности в Приложении</li>
+            <li>Посещённые страницы и время, проведённое на каждой</li>
+            <li>Общее время использования</li>
+        </ul>
+        <p><strong>Примечание:</strong> Приложение не собирает точные геоданные устройства.</p>
+        <p>Для улучшения пользовательского опыта вам может быть предложено добровольно предоставить следующую личную информацию:</p>
+        <ul>
+            <li>Имя</li>
+            <li>Адрес электронной почты</li>
+            <li>Дата рождения</li>
+        </ul>
+        <p>Данные собираются только с вашего согласия и будут использоваться строго в соответствии с данной политикой.</p>
+
+        <h2>2. Использование собранной информации</h2>
+        <p>Собранные данные могут использоваться для:</p>
+        <ul>
+            <li>Обеспечения основных функций Приложения</li>
+            <li>Улучшения производительности и удобства использования</li>
+            <li>Управления подписками, аккаунтами пользователей и предпочтениями</li>
+            <li>Отправки важных уведомлений и рекламных сообщений</li>
+        </ul>
+
+        <h2>3. Доступ третьих лиц и обмен данными</h2>
+        <p>Периодически анонимные агрегированные данные могут передаваться доверенным третьим лицам для улучшения Приложения. Эти лица не имеют права использовать ваши личные данные независимо.</p>
+        <p>Мы можем раскрывать информацию, предоставленную пользователем или автоматически собранную, в следующих случаях:</p>
+        <ul>
+            <li>Для соблюдения законов и юридических процедур (например, повесток)</li>
+            <li>Для защиты наших законных прав или реагирования на законные запросы государственных органов</li>
+            <li>Добросовестно, если раскрытие необходимо для защиты вашей безопасности или безопасности других лиц</li>
+            <li>С поставщиками услуг, работающими от нашего имени по строгим соглашениям о конфиденциальности</li>
+        </ul>
+
+        <h2>4. Право отказаться</h2>
+        <p>Вы можете отказаться от сбора данных, удалив Приложение с устройства через стандартную процедуру удаления или через магазин приложений, откуда оно было загружено.</p>
+
+        <h2>5. Срок хранения данных</h2>
+        <p>Мы сохраняем предоставленные пользователем данные, пока вы активно используете Приложение, и в течение разумного периода после этого.</p>
+        <p>Если вы хотите удалить свою учетную запись и все связанные данные, пожалуйста, посетите:<br>
+        🔗 <a href="https://eozcicek.github.io/account-deletion-page/" target="_blank">https://eozcicek.github.io/account-deletion-page/</a></p>
+
+        <h2>6. Конфиденциальность детей</h2>
+        <p>Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем личные данные из этой возрастной группы.</p>
+        <p>Если вы родитель или законный представитель и считаете, что ваш ребенок предоставил личные данные через Приложение, пожалуйста, свяжитесь с нами. Мы оперативно удалим такую информацию после проверки.</p>
+        <p><strong>Примечание:</strong> В соответствии с региональными законами (например, GDPR), вам должно быть не менее 16 лет для согласия на обработку персональных данных. В противном случае согласие должен дать родитель или законный представитель.</p>
+
+        <h2>7. Безопасность данных</h2>
+        <p>Мы серьезно относимся к конфиденциальности и безопасности ваших данных. Поставщик услуг реализует соответствующие технические, административные и физические меры защиты информации от несанкционированного доступа, изменения, раскрытия или уничтожения.</p>
+
+        <h2>8. Изменения в Политике конфиденциальности</h2>
+        <p>Данная Политика конфиденциальности может периодически обновляться. Изменения будут опубликованы на этой странице с обновленной датой вступления в силу. Рекомендуется регулярно просматривать эту страницу. Продолжение использования Приложения после изменений означает ваше согласие с обновленной политикой.</p>
+
+        <h2>9. Ваше согласие</h2>
+        <p>Используя Приложение, вы даете согласие на сбор, обработку и использование вашей информации, как описано в данной Политике конфиденциальности.</p>
+
+        <h2>10. Контакты</h2>
+        <p>Если у вас есть вопросы или замечания относительно данной Политики конфиденциальности или обработки данных, пожалуйста, свяжитесь с нами:<br>
+        📧 <a href="mailto:numeroloji.karmik@gmail.com">numeroloji.karmik@gmail.com</a></p>
+    </div>
 
 </body>
 </html>
